@@ -38,13 +38,12 @@ im			"inner method", select contents of "def"/"end" block,
 
 							*v_aM* *aM*
 							*ruby-v_aM* *ruby-aM*
-aM			"a module" or "a class", select from "module" or
-			"class" until matching "end" keyword.
+aM			"a class", select from "class" until matching "end"
+			keyword.
 
 							*v_iM* *iM*
 							*ruby-v_iM* *ruby-iM*
-iM			"inner module" or "inner class", select contents of
-			"module"/"end" block, or "class"/"end" block,
-			excluding the "module"/"class" and "end" themselves.
+iM			"inner class", select contents of "class"/"end"
+			block, excluding the "class" and "end" themselves.
 
  vim:tw=78:sw=4:ts=8:ft=help:norl:
