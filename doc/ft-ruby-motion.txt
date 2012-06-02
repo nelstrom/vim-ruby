@@ -1,0 +1,17 @@
+RUBY						           *ft-ruby-motion*
+
+						*ruby-]m*
+]m			Go to start of next method definition.
+
+						*ruby-]M*
+]M			Go to end of next method defeinition.
+
+						*ruby-[m*
+[m			Go to start of previous method definition.
+
+						*ruby-[M*
+[M			Go to end of previous method defeinition.
+
+
+
+ vim:tw=78:sw=4:ts=8:ft=help:norl:
