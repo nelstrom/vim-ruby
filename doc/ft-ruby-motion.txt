@@ -1,27 +1,50 @@
-RUBY						           *ft-ruby-motion*
+RUBY MOTIONS						*ruby-motion*
 
-						*ruby-]m*
+							*ruby-]m*
 ]m			Go to start of next method definition.
 
-						*ruby-]M*
+							*ruby-]M*
 ]M			Go to end of next method definition.
 
-						*ruby-[m*
+							*ruby-[m*
 [m			Go to start of previous method definition.
 
-						*ruby-[M*
+							*ruby-[M*
 [M			Go to end of previous method definition.
 
-						*ruby-]]*
+							*ruby-]]*
 ]]			Go to start of next module or class definition.
 
-						*ruby-][*
+							*ruby-][*
 ][			Go to end of next module or class definition.
 
-						*ruby-[[*
+							*ruby-[[*
 [[			Go to start of previous module or class definition.
 
-						*ruby-[]*
+							*ruby-[]*
 []			Go to end of previous module or class definition.
+
+RUBY TEXT OBJECTS					*ruby-text-objects*
+
+							*v_am* *am*
+							*ruby-v_am* *ruby-am*
+am			"a method", select from "def" until matching "end"
+			keyword.
+
+							*v_im* *im*
+							*ruby-v_im* *ruby-im*
+im			"inner method", select contents of "def"/"end" block,
+			excluding the "def" and "end" themselves.
+
+							*v_aM* *aM*
+							*ruby-v_aM* *ruby-aM*
+aM			"a module" or "a class", select from "module" or
+			"class" until matching "end" keyword.
+
+							*v_iM* *iM*
+							*ruby-v_iM* *ruby-iM*
+iM			"inner module" or "inner class", select contents of
+			"module"/"end" block, or "class"/"end" block,
+			excluding the "module"/"class" and "end" themselves.
 
  vim:tw=78:sw=4:ts=8:ft=help:norl:
