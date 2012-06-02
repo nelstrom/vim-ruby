@@ -4,14 +4,24 @@ RUBY						           *ft-ruby-motion*
 ]m			Go to start of next method definition.
 
 						*ruby-]M*
-]M			Go to end of next method defeinition.
+]M			Go to end of next method definition.
 
 						*ruby-[m*
 [m			Go to start of previous method definition.
 
 						*ruby-[M*
-[M			Go to end of previous method defeinition.
+[M			Go to end of previous method definition.
 
+						*ruby-]]*
+]]			Go to start of next module or class definition.
 
+						*ruby-][*
+][			Go to end of next module or class definition.
+
+						*ruby-[[*
+[[			Go to start of previous module or class definition.
+
+						*ruby-[]*
+[]			Go to end of previous module or class definition.
 
  vim:tw=78:sw=4:ts=8:ft=help:norl:
