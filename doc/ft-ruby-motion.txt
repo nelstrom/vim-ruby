@@ -1,5 +1,10 @@
 RUBY MOTIONS						*ruby-motion*
 
+Vim provides motions such as |[m| and |]m| for jumping to the start or end of
+a method definition. Out of the box, these work for curly-bracket languages,
+but not for ruby. The |vim-ruby| plugin enhances these motions, by making them
+also work on ruby files.
+
 							*ruby-]m*
 ]m			Go to start of next method definition.
 
@@ -26,22 +31,22 @@ RUBY MOTIONS						*ruby-motion*
 
 RUBY TEXT OBJECTS					*ruby-text-objects*
 
-							*v_am* *am*
+Vim's |text-objects| can be used to select or operate upon regions of text
+that are defined by structure. The |vim-ruby| plugin adds text objects for
+operating on methods and classes.
+
 							*ruby-v_am* *ruby-am*
 am			"a method", select from "def" until matching "end"
 			keyword.
 
-							*v_im* *im*
 							*ruby-v_im* *ruby-im*
 im			"inner method", select contents of "def"/"end" block,
 			excluding the "def" and "end" themselves.
 
-							*v_aM* *aM*
 							*ruby-v_aM* *ruby-aM*
 aM			"a class", select from "class" until matching "end"
 			keyword.
 
-							*v_iM* *iM*
 							*ruby-v_iM* *ruby-iM*
 iM			"inner class", select contents of "class"/"end"
 			block, excluding the "class" and "end" themselves.
